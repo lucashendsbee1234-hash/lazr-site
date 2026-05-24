@@ -37,7 +37,7 @@ export function Footer() {
             <a href="#portfolio" className="hover:text-foreground transition">Portfolio</a>
             <a href="#terms" className="hover:text-foreground transition">Terms</a>
             <a href="#contact" className="hover:text-foreground transition">Contact</a>
-            <a href="https://discord.gg/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">Discord</a>
+            <a href="https://discord.gg/Eyhm3vHFgW/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">Discord</a>
           </nav>
 
           <div className="text-xs text-muted-foreground">© 2026 LazR Hub. All rights reserved.</div>

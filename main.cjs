@@ -149,7 +149,7 @@ function createWindow() {
   // LOAD WEBSITE
   //////////////////////////////////////////////////////
 
-  mainWindow.loadURL("https://lazr-spark-dev.lovable.app");
+mainWindow.loadURL("https://lazrhub.ink");
 
   //////////////////////////////////////////////////////
   // OPEN EXTERNAL LINKS
