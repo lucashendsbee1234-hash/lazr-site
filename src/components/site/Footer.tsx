@@ -13,7 +13,7 @@ export function Footer() {
             Join our Discord, open a ticket, and let's build something great.
           </p>
           <a
-            href="https://discord.gg/"
+            href="https://discord.gg/Eyhm3vHFgW"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-8 inline-flex items-center gap-2 btn-neon rounded-full px-8 py-4 font-semibold"

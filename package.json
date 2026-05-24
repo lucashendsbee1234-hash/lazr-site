@@ -1,15 +1,37 @@
 {
   "name": "tanstack_start_ts",
+  "version": "1.0.0",
+  "description": "LazR Hub Desktop Launcher",
+  "author": "Lucas",
   "private": true,
   "sideEffects": false,
   "type": "module",
+  "main": "main.cjs",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.lazrhub.app",
+    "productName": "LazR Hub",
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "LazR Hub",
+      "license": "license.txt"
+    }
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.25.5",
@@ -49,6 +71,8 @@
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
     "date-fns": "^4.1.0",
+    "discord-rpc": "^4.0.1",
+    "electron-updater": "^6.8.3",
     "embla-carousel-react": "^8.6.0",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.575.0",
@@ -73,6 +97,8 @@
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
     "@vitejs/plugin-react": "^5.0.4",
+    "electron": "^42.2.0",
+    "electron-builder": "^26.8.1",
     "eslint": "^9.32.0",
     "eslint-config-prettier": "^10.1.1",
     "eslint-plugin-prettier": "^5.2.6",

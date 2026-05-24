@@ -58,7 +58,7 @@ export function Hero() {
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4 animate-fade-up" style={{ animationDelay: "0.3s", animationFillMode: "both" }}>
           <a
-            href="https://discord.gg/"
+            href="https://discord.gg/Eyhm3vHFgW"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-neon rounded-full px-8 py-4 font-semibold inline-flex items-center gap-2"
