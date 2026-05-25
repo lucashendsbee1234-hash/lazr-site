@@ -75,8 +75,8 @@ export function Hero() {
 
         <div className="mt-20 grid grid-cols-3 gap-8 max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: "0.4s", animationFillMode: "both" }}>
           {[
-            { v: "500+", l: "Projects" },
-            { v: "200+", l: "Servers" },
+            { v: "0", l: "Projects currently, Change that" },
+            { v: "0", l: "Servers currently, Change that" },
             { v: "24/7", l: "Support" },
           ].map((s) => (
             <div key={s.l} className="text-center">
